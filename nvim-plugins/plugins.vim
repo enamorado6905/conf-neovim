@@ -58,10 +58,11 @@ call plug#begin(stdpath('data').'/plugged')
     "IndentLine
     Plug 'Yggdroot/indentLine'
 
-    "PRETTIER
-     Plug 'prettier/vim-prettier', {
+    " post install (yarn install | npm install) then load plugin only for editing supported files
+    Plug 'prettier/vim-prettier', {
      \ 'do': 'npm install',
-     \ 'for': ['less', 'scss', 'css', 'html', 'vue', 'svelte', 'yaml', 'typescript', 'javascript', 'php', 'vim'] }
+     \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
 
 call plug#end()
 
