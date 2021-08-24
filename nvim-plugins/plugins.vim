@@ -61,9 +61,21 @@ call plug#begin(stdpath('data').'/plugged')
     " post install (yarn install | npm install) then load plugin only for editing supported files
     Plug 'prettier/vim-prettier', {
      \ 'do': 'npm install',
-     \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+     \ 'for': ['javascript', 'typescript', 'php' , 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
+    "CodeIgnter
+    "Plug 'garbas/vim-snipmate'
+    Plug 'honza/vim-snippets'
+
+    "COMMENTER
+    Plug 'tpope/vim-commentary'
+    Plug 'tpope/vim-abolish'
+
+    "Ctags
+    Plug 'universal-ctags/ctags'
+    Plug 'ludovicchabant/vim-gutentags'
 
 
-call plug#end()
+    call plug#end()
 
 

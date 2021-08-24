@@ -13,7 +13,11 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/plug-config/gitGutter.vim',
     \ '/plug-config/rainbowParenthesis.vim',  
     \ '/plug-config/indentLine.vim',
-    \ '/plug-config/prettier.vim'
+    \ '/plug-config/prettier.vim',
+    \ '/plug-config/commentary.vim',
+    \ '/plug-config/abolish.vim',
+    \ '/plug-config/ctags.vim',
+    \ '/plug-config/gutentags.vim'
     \ ]
 
 for f in g:config_file_list

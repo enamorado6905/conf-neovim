@@ -68,7 +68,8 @@ let g:coc_global_extensions = [
     \ 'coc-angular',
     \ 'coc-actions',
     \ 'coc-lists',
-    \ 'coc-vimlsp'
+    \ 'coc-vimlsp',
+    \ 'coc-phpls'
     \ ]
 
 
