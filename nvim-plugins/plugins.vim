@@ -5,6 +5,9 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'sainnhe/gruvbox-material'
     Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 
+    "Align
+    Plug 'vim-scripts/Align'
+
     " NERDTree
     Plug 'preservim/nerdtree'
 

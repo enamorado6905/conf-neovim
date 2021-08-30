@@ -17,7 +17,8 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/plug-config/commentary.vim',
     \ '/plug-config/abolish.vim',
     \ '/plug-config/ctags.vim',
-    \ '/plug-config/gutentags.vim'
+    \ '/plug-config/gutentags.vim',
+    \ '/plug-config/Align.vim'
     \ ]
 
 for f in g:config_file_list
